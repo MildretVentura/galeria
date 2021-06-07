@@ -1,0 +1,60 @@
+<!--Ventura Olascoaga Mildret Metzi
+31/05/2021
+4°S
+Desarrolla aplicaciones que se ejecutan en el cliente
+Arriaga Hernández Verónica-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Galeria</title>
+	<link rel="stylesheet" type="text/css" href="galeria.css">
+</head>
+<body>
+	<script type="text/javascript" src="galeria.js"></script>
+<div>
+	<font face="Harrington"><h1><center>Mi Galeria</center></h1></font>
+	<center><div id="img">
+		<img src="img1.png"    id="imagen1"
+		onMouseOver="punt1();" onMouseOut="puntero1();"
+		onMouseDown="tam1();" onMouseUp="tama1();"
+		ondblclick="descrip1();" />
+
+		<img src="img2.jpg" id="imagen2" 
+		 onMouseOver="punt2();" onMouseOut="puntero2();"
+		onMouseDown="tam2();" onMouseUp="tama2();"
+		ondblclick="descrip2();" />
+
+		<img src="img3.jpg"   id="imagen3"
+		  onMouseOver="punt3();" onMouseOut="puntero3();"
+		  onMouseDown="tam3();" onMouseUp="tama3();"
+		  ondblclick="descrip3();"/>
+
+		<img src="img4.jpg"   id="imagen4"
+		  onMouseOver="punt4();" onMouseOut="puntero4();"
+		  onMouseDown="tam4();" onMouseUp="tama4();"
+		  ondblclick="descrip4();"/>
+		
+		<img src="img5.jpg"   id="imagen5"
+		  onMouseOver="punt5();" onMouseOut="puntero5();"
+		  onMouseDown="tam5();" onMouseUp="tama5();"
+		  ondblclick="descrip5();"/>
+
+		<img src="img6.jpg"  id="imagen6" 
+		 onMouseOver="punt6();" onMouseOut="puntero6();"
+		 onMouseDown="tam6();" onMouseUp="tama6();"
+		 ondblclick="descrip6();"/>
+	</div></center>
+	<div id="descripcion">
+		<font face="Harrington"><h1><center>Descripci&oacuten de la imagen</center></h1></font>
+		<font face="High Tower Text"><center><p>Nombre de la imagen: </p><input type="text" id="name"><br>
+		<p>Tipo de archivo: </p><input type="text" id="archi"><br>
+		<p>Ancho:</p><input type="text" id="anc"><br>
+		<p>Largo:</p><input type="text" id="larg"><br>
+		<p>Tamaño: </p><input type="text" id="tam"><br>
+		<p>Descripcion de la imagen: </p><input type="text" id="im" style="width:375px"><br>
+	</div></font>
+
+</div>
+</body>
+</html>
